@@ -1,3 +1,0 @@
-conferir dps a questao 3:
-	verificar se os inserts das views funcionam
-
