@@ -1,6 +1,13 @@
 -- FELIPE BEZERRA BRAGA
 
 -- 1.
+
+CREATE DOMAIN dm_superpequeno AS VARCHAR(15) NOT NULL;
+CREATE DOMAIN dm_pequeno AS VARCHAR(20) NOT NULL;
+CREATE DOMAIN dm_medio AS VARCHAR(40) NOT NULL;
+CREATE DOMAIN dm_grande AS VARCHAR(50) NOT NULL;
+CREATE DOMAIN dm_supergrande AS VARCHAR(100) NOT NULL;
+
 CREATE TABLE municipios(
     idMunicipio integer,
     uf char(2),
@@ -21,3 +28,5 @@ CREATE TABLE classificacao(
     idCategoria integer,
     idProduto integer
 );
+
+-- 2.
